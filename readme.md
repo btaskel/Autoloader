@@ -22,7 +22,9 @@
 
 
     git clone https://github.com/btaskel/autoloader.git
+    
     cd autoloader
+    
     python -m pip install -r requirements.txt
 
 2. 配置工作流
