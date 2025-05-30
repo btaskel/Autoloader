@@ -17,8 +17,22 @@
 4. 一句话，生成整个创作流程
 
 ### 快速开始
+    
+1. **安装 autoloader**
 
-git clone 
+
+    git clone https://github.com/btaskel/autoloader.git
+    cd autoloader
+    python -m pip install -r requirements.txt
+
+2. 配置工作流
+
+进入comfyui，开启“开发者模式”，点击左上角导出工作流，导出为json文件，放入autoloader/workflow目录下。
+ 
+启动Autoloader
+
+    
+    python main.py 
 
 ### 配置文件
 
