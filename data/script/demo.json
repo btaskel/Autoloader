@@ -1,0 +1,74 @@
+{
+  "global": {
+    "delete_files_enable": false
+  },
+  "mode": "flow",
+  "uploads": [
+    {
+      "target": {
+        "website_name": "dropbox",
+        "packer_enable": false,
+        "packer_start_pos": 0,
+        "caption": "",
+        "extension_file_context": ""
+      },
+      "workflow": {
+        "workflow_name": "",
+        "fixed_node_seed_names": [
+          "166"
+        ],
+        "uniform_string": "1"
+      },
+      "number": 50,
+      "batch": 2,
+      "safety_cover_sfw_level_num": 1,
+      "sfw_level_num": 0,
+      "watermark_enable": true,
+      "mosaic_enable": false
+    },
+    {
+      "target": {
+        "website_name": "booth",
+        "packer_enable": true,
+        "packer_start_pos": 2,
+        "caption": "文件下载连接",
+        "extension_file_context": "dropbox download link: %url%"
+      },
+      "workflow": {
+        "workflow_name": "",
+        "fixed_node_seed_names": [
+          "166"
+        ],
+        "uniform_string": "1"
+      },
+      "number": 3,
+      "batch": 2,
+      "safety_cover_sfw_level_num": 2,
+      "sfw_level_num": 2,
+      "watermark_enable": true,
+      "mosaic_enable": false
+    },
+    {
+      "target": {
+        "website_name": "pixiv",
+        "packer_enable": false,
+        "packer_start_pos": 0,
+        "caption": "更多差分: %url%",
+        "extension_file_context": ""
+      },
+      "workflow": {
+        "workflow_name": "",
+        "fixed_node_seed_names": [
+          "166"
+        ],
+        "uniform_string": "1"
+      },
+      "number": 4,
+      "batch": 2,
+      "safety_cover_sfw_level_num": 1,
+      "sfw_level_num": 1,
+      "watermark_enable": true,
+      "mosaic_enable": false
+    }
+  ]
+}

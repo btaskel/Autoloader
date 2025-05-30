@@ -1,0 +1,31 @@
+{
+  "base": {
+    "log_level": "debug",
+    "order_script_name": "demo.json"
+  },
+  "uploader": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    "pixiv_csrf_token": "",
+    "pixiv_cookie": "",
+    "booth_csrf_token": "",
+    "booth_cookie": "",
+    "booth_authenticity_token": "",
+    "dropbox_access_token": "",
+    "unifans_auth_token": "",
+    "unifans_account_id": "",
+    "unifans_scheme_ids": [""]
+  },
+  "tagger": {
+    "translator": "",
+    "translator_app": "",
+    "translator_key": "",
+    "translator_language": "jp",
+    "global_remove_default_tags": [],
+    "global_add_default_tags": [],
+    "last_tags": [
+      "AIイラスト"
+    ],
+    "front_tags": []
+  },
+  "http_proxy": "http://127.0.0.1:1080"
+}
